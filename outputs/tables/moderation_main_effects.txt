@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     SC   R-squared:                       0.770
+Model:                            OLS   Adj. R-squared:                  0.766
+Method:                 Least Squares   F-statistic:                     270.9
+Date:                Tue, 27 Oct 2026   Prob (F-statistic):           1.66e-48
+Time:                        19:08:22   Log-Likelihood:                -89.130
+No. Observations:                 141   AIC:                             184.3
+Df Residuals:                     138   BIC:                             193.1
+Df Model:                           2                                         
+Covariance Type:                  HC3                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -9.979e-17      0.039  -2.55e-15      1.000      -0.077       0.077
+AI_c           0.3839      0.073      5.292      0.000       0.242       0.526
+INST_c         0.5228      0.071      7.337      0.000       0.383       0.662
+==============================================================================
+Omnibus:                        2.712   Durbin-Watson:                   2.052
+Prob(Omnibus):                  0.258   Jarque-Bera (JB):                2.736
+Skew:                          -0.327   Prob(JB):                        0.255
+Kurtosis:                       2.806   Cond. No.                         3.30
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
